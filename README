@@ -1,0 +1,99 @@
+# A+ Rooter Website
+
+This repository contains the code for the official website of **A+ Rooter**, a local plumbing company. The website is fully responsive and supports mobile devices. It features a home page, a functional clock-in/out system, an invoice management page, and a dispatcher communication page with Google Maps integration.
+
+---
+
+## Features
+
+### Home Page
+- A welcoming landing page with navigation to other sections.
+- Responsive design for both desktop and mobile users.
+
+### Clock In/Out
+- Allows employees to clock in and out of work.
+- Saves clock-in and clock-out times using `localStorage`.
+
+### Invoice Management
+- Employees can write and save invoices.
+- Stored invoices are displayed on the page for easy access.
+
+### Dispatcher Communication
+- Integrates with Google Maps to show locations and assist with routing.
+- A central page for communication between dispatchers and plumbers.
+
+---
+
+## Technologies Used
+- **HTML**: For structuring content.
+- **CSS**: For styling the website.
+- **JavaScript**: For interactivity and functionality.
+- **Google Maps API**: For mapping and GPS features.
+
+---
+
+## File Structure
+```
+/project-root
+├── index.html         # Home Page
+├── clock-in.html      # Clock In/Out Page
+├── invoices.html      # Invoice Management Page
+├── dispatch.html      # Dispatch and GPS Page
+├── styles.css         # Centralized CSS Styling
+└── scripts.js         # JavaScript Functionality
+```
+
+---
+
+## Installation and Setup
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/a-plus-rooter.git
+   cd a-plus-rooter
+   ```
+
+2. Open the files in your favorite text editor or IDE.
+
+3. Replace the placeholder `YOUR_API_KEY` in `dispatch.html` with your Google Maps API key:
+   ```html
+   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+   ```
+
+4. Launch the website:
+   - Open `index.html` in a web browser to view the homepage.
+   - Use the navigation bar to explore other pages.
+
+---
+
+## Usage
+
+### Clock In/Out
+1. Navigate to the **Clock In/Out** page.
+2. Click **Clock In** or **Clock Out** to record your work hours.
+3. Times are stored locally in your browser.
+
+### Invoices
+1. Navigate to the **Invoices** page.
+2. Write an invoice in the provided text area and click **Save Invoice**.
+3. Saved invoices will appear below the input box.
+
+### Dispatch
+1. Navigate to the **Dispatch** page.
+2. Use the integrated Google Maps interface for location-based routing and coordination.
+
+---
+
+## Future Enhancements
+- Implement a backend for storing clock-in/out data and invoices.
+- Add real-time messaging for dispatchers and plumbers.
+- Expand the Google Maps integration with live tracking.
+
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Author
+Created by **[makingMarty]**

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoices</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">A<span class="plus">+</span> Rooter</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="clock-in.html">Clock In/Out</a></li>
+                <li><a href="invoices.html">Invoices</a></li>
+                <li><a href="dispatch.html">Dispatch</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Invoices</h1>
+        <p>Create and manage invoices for clients.</p>
+        <textarea id="invoice-text" placeholder="Write your invoice here..."></textarea>
+        <button onclick="saveInvoice()">Save Invoice</button>
+        <div id="saved-invoices"></div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
