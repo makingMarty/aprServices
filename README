@@ -48,7 +48,7 @@ This repository contains the code for the official website of **A+ Rooter**, a l
 ## Installation and Setup
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/a-plus-rooter.git
+   git clone https://github.com/makingMarty/aprServices.git
    cd a-plus-rooter
    ```
 
